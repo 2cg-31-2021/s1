@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>NAJLEPSI PRZYJACIELE CZŁOWIEKA</title>
+	<meta name="description" content="Psi przyjaciele i schroniska w najbliższej okolicy"/>
+	<meta name="keywords" content="zwierzęta"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+</head>
+
+<body  style="background-color: #ccccff">
+	<div style="text-align: center">
+	<img src="img/B.gif"  />
+	<h1>NAjLEPSI PRZYJACIELE CZŁOWIEKA</h1>
+	<img src="img/B.gif"  />
+	</div>
+	<h2>Nie od dziś wiadomo, że najlepszym przyjacielem człowieka jest jego zwięrzątko domowe. Zwykle jest to kot albo pies.</h2>
+	<h3>Niestety większość z nich nie ma swojego domu i często znajduję się w schroniskach. W poniższych linach podane są dwa w naszej najbliższej okolicy.</h3>
+	Schronisko Stalowa Wola: <a href="http://psiaprzystan.pl/" target="_blank" title="Sprawdź co robią!"> 
+	Przytulisko Psia Przystań
+	</a>
+	
+	<br/><br/>
+	
+	<a href="http://psiaprzystan.pl/" target="_blank" title="To oni!">
+	<div style="text-align: center">
+	<img src="img/6.jpg" />
+	</div>
+	</a>
+	
+	<br/><br/>
+	
+	Schronisko Sandomierz:  <a href="https://przytulisko-na-wisniowej.business.site/" target="_blank" title="Sprawdź co robią!">
+	Schronisko na Wiśniowej
+	</a>
+	
+	<br/><br/>
+	
+	<a href="https://przytulisko-na-wisniowej.business.site/" target="_blank" title="To oni!">
+	<div style="text-align: center">
+	<img src="img/7.jpg"/>
+	</div>
+	</a>
+	
+	<br/><br/>
+	
+	<h4> A to moi najlepsi zwierzęcy przyjaciele!</h4>
+	
+	<div style="text-align: center">
+	<img src="img/1.jpg" width="1000" />
+	<img src="img/5.jpg" width="1000" />
+	<img src="img/3.jpg" width="1000" />
+	<img src="img/C.gif" width="1000" />
+	</div>
+	
+
+</body>
+</html>
