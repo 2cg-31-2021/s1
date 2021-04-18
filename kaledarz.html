@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-2">
+	<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+	function ileDni(year, month, day)
+		{
+		  var date1 = new Date();
+		  var date2 = new Date(year, month, day);
+		  var diff = date2.getTime() - date1.getTime();
+		  var dni = Math.floor(diff / (1000 * 60 * 60 * 24));
+		  if (dni == 1) return "1 dzień";
+		  else return dni + " dni";
+		}
+	</SCRIPT>
+</HEAD>
+<BODY   style="background-color: #ccccff">
+	
+	<div style="text-align: center" style="font-size:xx-large;">
+	<H1><FONT SIZE=7>Jeszcze tylko
+	<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+	document.write(ileDni(2022, 1, 1));
+	</SCRIPT>
+	do 1 stycznia 2022 roku</FONT>
+	</div>
+</BODY>
+</HTML>
