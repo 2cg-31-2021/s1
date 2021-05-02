@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Pomoc naukowa</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <script language=javascript>
+    function oblicz()
+      {
+        var a = eval(document.form1.a.value);
+        var b = eval(document.form1.b.value);
+        var c = eval(document.form1.c.value);
+        var d = eval(document.form1.d.value);
+        var m = a;
+        if(b > m) m = b;
+        if(c > m) m = c;
+        if(d > m) m = d;
+        document.form1.max.value = m;
+      }
+    </script>
+</head> 
+
+<body style="background-image: radial-gradient(circle at 120.71% 50%, #b6dded 0, #b9dcef 3.33%, #bddbf1 6.67%, #c1daf2 10%, #c5d8f3 13.33%, #cad7f3 16.67%, #ced6f2 20%, #d3d4f1 23.33%, #d8d3f0 26.67%, #ddd2ee 30%, #e2d1eb 33.33%, #e6d0e8 36.67%, #eacfe5 40%, #edcee2 43.33%, #f0cdde 46.67%, #f2cdda 50%, #f4cdd6 53.33%, #f5cdd2 56.67%, #f5cdce 60%, #f5cdcb 63.33%, #f5cec7 66.67%, #f3cfc4 70%, #f2d0c1 73.33%, #efd1bf 76.67%, #edd2bd 80%, #ead3bb 83.33%, #e6d4ba 86.67%, #e2d5ba 90%, #ded7ba 93.33%, #dad8bb 96.67%, #d6d9bc 100%);">
+    <h2 align=center>Znajdowanie największej liczby</h2>
+    <center>  
+      <form name=form1 style="background-image: radial-gradient(circle at 62.28% -19.64%, #daffb7 0, #dfffa7 7.14%, #e4f996 14.29%, #e8ef85 21.43%, #ebe373 28.57%, #eed561 35.71%, #f0c64e 42.86%, #f2b53c 50%, #f4a32c 57.14%, #f69221 64.29%, #f8801d 71.43%, #fb6d20 78.57%, #fe5a27 85.71%, #ff4431 92.86%, #ff293d 100%);; color: black; height: 430px" >
+        <br>
+		a: <input type=text size=5 name=a>
+        b: <input type=text size=5 name=b>
+        c: <input type=text size=5 name=c>
+        d: <input type=text size=5 name=d>
+        <br><br>
+        <input type=button
+               value="Znajdź największą liczbę"
+               onClick=oblicz()>
+        <br><br>
+        max: <input type=text size=5 name=max>
+		<br><br>
+		<h4>
+		&lt;script&gt;
+		<br>
+    function oblicz()<br>
+      {<br>
+        var a = eval(document.form1.a.value);<br>
+        var b = eval(document.form1.b.value);<br>
+        var c = eval(document.form1.c.value);<br>
+        var d = eval(document.form1.d.value);<br>
+        var m = a;<br>
+        if(b > m) m = b;<br>
+        if(c > m) m = c;<br>
+        if(d > m) m = d;<br>
+        document.form1.max.value = m;<br>
+      }<br>
+    </script>
+		</h4>
+      </form>
+	  <br><br>
+	  <form style="background-image: radial-gradient(circle at 50% 14.23%, #ff91c3 0, #ee80bd 25%, #d86cb4 50%, #c159ac 75%, #ac4ba7 100%); color: black">
+		  <h3>Schemat Blokowy</h3>
+		  <img src = "img/11.jpg">
+	  </form>
+	  <br><br>
+	  <form name=form1 style="background-image: radial-gradient(circle at 57.78% 5.89%, #b5edff 0, #5389f2 50%, #003062 100%);; color: black; height: 330px" >
+		  <h3>Kod C++</h3>
+			<h4>#include <iostream><br>
+			main()<br>
+			{<br>
+			  double a, b, c, d, m;<br>
+			  cout << "Podaj cztery liczby: ";<br>
+			  cin >> a;<br>
+			  cin >> b;<br>
+			  cin >> c;<br>
+			  cin >> d;<br>
+			  m = a;<br>
+			  if (b>m) m = b;<br>
+			  if (c>m) m = c;<br>
+			  if (d>m) m = d;<br>
+			  cout << "Największa z nich to " << m << endl;<br>
+			}</h4>
+	  </form>
+    </center>
+	
+</body>
+</html>
